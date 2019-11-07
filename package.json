@@ -1,0 +1,18 @@
+{
+  "name": "test-audio-01",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Briones",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-google-cloudfunctions": "*"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^3.3.2",
+    "@google-cloud/storage": "^4.1.0"
+  }
+}
